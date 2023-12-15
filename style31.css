@@ -1,0 +1,12 @@
+*, html{
+    box-sizing: border-box;
+}
+
+div h1{
+background-color: green;
+width: 200px;
+height: 200px;
+margin: 100px;
+padding: 50px;
+border: 50px solid yellow;
+}

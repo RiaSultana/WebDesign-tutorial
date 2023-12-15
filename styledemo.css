@@ -1,0 +1,27 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 20px; 
+    color:rgb(170, 25, 25);}
+p {
+   font-family: Arial, Helvetica, sans-serif; 
+   font-size: 16px; 
+   line-height: 1.5;
+}  
+
+button {
+    padding:6px;
+    font-size:16px;
+    color: rgb(170, 25, 25);
+    border-color: rgb(170, 25, 25);
+}
+button:hover{
+   color: #c17676; 
+}
+
+.hover-hand{
+    cursor: pointer;
+}
+.hover-hand:hover{
+    color:#a42020
+    
+}

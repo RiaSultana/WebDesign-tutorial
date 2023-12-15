@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 950px;
+    background-color: #dddddd;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    height: 400px;
+    
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.red{
+    background-color: red;
+    order: 2;
+    align-self: center;
+    
+}
+.green{
+    background-color: green;
+    order: 3;
+    
+
+}
+.blue{
+    background-color: blue;
+    order: 1;
+}
