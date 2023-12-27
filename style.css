@@ -31,3 +31,334 @@
 .secondary-btn{
     background: rgb(205, 229, 255);
 }
+
+/* BlockInline CSS (file - BlockInline.html)*/
+.section-a{
+    width: 500px;
+    border: 2px solid gray;
+    display: inline;
+}
+
+.section-b{
+  width: 500px;
+  display: inline;
+}
+
+.span-a{
+    width: 500px;
+    display: block;
+    border: 2px solid gray;
+}
+
+.span-b{
+    width: 1000px;
+    border: 2px solid gray;
+    display: block;
+}
+
+.container1{
+    width: 600px;
+    background-color: #ddd;
+    padding: 20px;
+    margin: 0 auto;
+
+}
+.container2{
+    width: 600px;
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px auto;
+
+}
+
+.hidden1{
+   display: none;
+}
+
+.hidden2{
+   visibility: hidden;
+}
+
+/* CSS Flex (file - CSSflexbox.html) */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 950px;
+    background-color: #dddddd;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    height: 400px;
+    
+}
+.box{
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    color: #ffffff;
+    text-align: center;
+}
+.red{
+    background-color: red;
+    order: 2;
+    align-self: center;
+    
+}
+.green{
+    background-color: green;
+    order: 3;
+    
+}
+.blue{
+    background-color: blue;
+    order: 1;
+}
+
+/* CSS Float (file - CSSfloat.html) */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+ .wrapper{
+     width: 800px;
+     margin: 0 auto;
+ 
+ }
+ 
+ .left{
+     width: 200px;
+     height: 100px;
+     background-color: antiquewhite;
+     float:left;
+ }
+ 
+ .right{
+     width: 300px;
+     height: 200px;
+     background-color: aquamarine;
+     float: right;
+ }
+ 
+ .footer{
+     width: 800px;
+     margin: 0 auto;
+     height: 150px;
+     background-color: blue;
+ }
+ .clearfix::after{
+     content: "";
+     display: block;
+     clear: both;
+ }
+ 
+ p{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 18px;
+     line-height: 1.5;
+     margin-bottom: 1.5rem;
+ }
+ 
+ img{
+     float: left;
+ }
+
+ /* CSS for Position (file - Position.html) (Parent) */
+/* CSS for Position Fixed (child)*/ 
+.container1{
+    width: 800px;
+    min-height: 300px;
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px auto;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: cadetblue;
+}
+.fixed{
+    width:150px;
+    height: 150px;
+    border-radius: 5px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+}
+/* CSS for Position Relative (child)*/
+.container2{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    margin: 50px auto;
+    position: relative;  
+ }
+
+.box, .circle{
+   width: 50px;
+   height: 50px;
+   background-color: orange;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+}
+.circle{
+    border-radius: 50%;
+}
+
+.a{
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    z-index: -1;
+}
+
+.b{
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    z-index: -1;
+}
+.c{
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+ 
+}
+
+.d{
+    position: absolute;
+    bottom: -20px;;
+    left: -20px;;
+    z-index: -1;
+}
+.e{
+    position: absolute;
+    bottom: -20px;;
+    right:-20px;
+    z-index: -1;
+}
+.f{
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+}
+
+/* CSS Practice (practice.html) */
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 20px; 
+    color:rgb(170, 25, 25);}
+p {
+   font-family: Arial, Helvetica, sans-serif; 
+   font-size: 16px; 
+   line-height: 1.5;
+}  
+
+button {
+    padding:6px;
+    font-size:16px;
+    color: rgb(170, 25, 25);
+    border-color: rgb(170, 25, 25);
+}
+button:hover{
+   color: #c17676; 
+}
+
+.hover-hand{
+    cursor: pointer;
+}
+.hover-hand:hover{
+    color:#a42020
+    
+}
+
+/* Pseudo element and classes (file - pseudo.html) */
+
+.container1{
+    width: 600px;
+    margin: 0 auto;
+}
+/* these are pseudo classes */
+input:focus{
+    outline: none;
+    border: 2px solid orange;
+    padding: 3px 0 3px 5px;
+}
+input:checked{
+    width: 20px;
+    height: 20px;
+}
+button:disabled{
+    padding: 10px;
+}
+/* CSS for pseudo elements */
+.container2{
+    width: 600px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    position: relative;
+    
+}
+
+h1::after, h1::before{
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+}
+
+h1::after{
+    left: 25%;
+}
+h1::before{
+    right: 25%;
+}
+
+li, p{
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+p::first-letter{
+    font-size: 30px;
+    color: orange;
+}
+p::first-line{
+    font-style: italic;
+    text-decoration: underline;
+}
+p::selection{
+    color: white;
+    background-color: rgb(10, 79, 56);
+}
+li::marker{
+    color: red;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

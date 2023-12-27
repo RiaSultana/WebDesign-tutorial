@@ -1,0 +1,45 @@
+.section-a{
+    width: 500px;
+    border: 2px solid gray;
+    display: inline;
+}
+
+.section-b{
+  width: 500px;
+  display: inline;
+}
+
+.span-a{
+    width: 500px;
+    display: block;
+    border: 2px solid gray;
+}
+
+.span-b{
+    width: 1000px;
+    border: 2px solid gray;
+    display: block;
+}
+
+.container1{
+    width: 600px;
+    background-color: #ddd;
+    padding: 20px;
+    margin: 0 auto;
+
+}
+.container2{
+    width: 600px;
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px auto;
+
+}
+
+.hidden1{
+   display: none;
+}
+
+.hidden2{
+   visibility: hidden;
+}
